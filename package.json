@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "description": "TOTP but with PGP word list",
   "keywords": [
-    "pgp",
-    "totp"
+    "pgp word list",
+    "totp",
+    "words"
   ],
   "main": "lib/totp-words.js",
   "types": "lib/totp-words.d.ts",
@@ -25,7 +26,7 @@
     "prebuild": "rimraf lib",
     "build": "tsc --project tsconfig.build.json",
     "build:docs": "typedoc --out docs src/totp-words.ts",
-    "test": "jest --config jest.config.ts",
+    "test": "jest --config jest.config.ts --coverage",
     "test:ci": "npm run lint && npm run test -- --no-cache"
   },
   "lint-staged": {

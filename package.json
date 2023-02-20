@@ -1,6 +1,6 @@
 {
   "name": "totp-words",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "TOTP but with PGP word list",
   "keywords": [
     "pgp word list",
